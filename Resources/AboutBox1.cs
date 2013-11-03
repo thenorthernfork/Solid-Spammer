@@ -15,11 +15,6 @@ namespace WindowsFormsApplication1.Resources
             InitializeComponent();
         }
 
-        private void tableLayoutPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void okButton_Click(object sender, EventArgs e)
         {
             this.Close();
