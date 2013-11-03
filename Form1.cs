@@ -47,16 +47,12 @@ namespace WindowsFormsApplication1
         {
             timer1.Enabled = false;
             label3.Text = "Status: Inactive";
- /*           progressBar1.Style = ProgressBarStyle.Marquee; 
-            progressBar1.MarqueeAnimationSpeed = 0; 
-            progressBar1.Value = 0; */
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
             label3.Text = "Status: Active";
- //           progressBar1.Style = ProgressBarStyle.Marquee;
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
@@ -70,31 +66,11 @@ namespace WindowsFormsApplication1
             label1.Text = DateTime.Now.ToString("h:mm:ss tt");
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_speed_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer2_Tick(object sender, EventArgs e)
         {
             displayTime();
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             AboutBox1 about = new AboutBox1();
@@ -112,9 +88,5 @@ namespace WindowsFormsApplication1
             test.Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
